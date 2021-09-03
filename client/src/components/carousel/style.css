@@ -1,0 +1,109 @@
+.item-container .col {
+  padding: 0;
+  background: rgb(241, 250, 238) no-repeat;
+  background: linear-gradient(
+    90deg,
+    rgba(241, 250, 238, 1) 10%,
+    rgba(168, 218, 220, 1) 50%,
+    rgba(69, 123, 157, 1) 100%
+  );
+}
+
+.item-container .carousel-caption {
+  text-align: center;
+  bottom: 40%;
+}
+
+.bg-carousel {
+  background: #f1faee;
+}
+
+.info {
+  background: rgb(241, 250, 238) no-repeat;
+  background: linear-gradient(
+    90deg,
+    rgba(241, 250, 238, 1) 10%,
+    rgba(168, 218, 220, 1) 50%,
+    rgba(69, 123, 157, 1) 100%
+  );
+  text-align: center;
+  padding: 250px 0px;
+}
+
+.info h1 {
+  color: #1d3557;
+  font-size: 2rem;
+}
+
+.infoBtn {
+  color: #457b9d;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.infoBtn:hover,
+.infoBtn:focus {
+  padding: 200px;
+  text-decoration: none;
+  color: #e63946;
+  padding: 7px;
+  box-shadow: 0 0.5em 0.5em -0.4em #e63946;
+}
+
+/* .info {
+  color: #f1faee;
+} */
+
+/* First slide */
+/* .about {
+  text-align: center;
+  position: absolute;
+  min-width: auto;
+  padding-top: 60px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent); */
+/* position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-60%, -40%);
+  font-size: 30px;
+  line-height: 50px;
+  padding: auto;
+  background-color: rgb(137, 141, 161); */
+
+.about h3 {
+  color: #f1faee;
+}
+
+/* .image-blurry {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+ */
+/* Second slide  */
+/* .reservation {
+  position: absolute;
+  top: 60%;
+  left: 28%;
+  transform: translate(-60%, -40%);
+  font-size: 30px;
+  line-height: 50px;
+} */
+
+/* Third slide  */
+/* .offer {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  line-height: 50px;
+  background-color: rgb(137, 141, 161);
+}
+ */
+/*------------------------------------------------------------------
+    Slider
+-------------------------------------------------------------------*/
+
+.cover-slides {
+  height: 100vh;
+}
